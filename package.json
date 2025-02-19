@@ -1,0 +1,17 @@
+{
+  "name": "ci-cd",
+  "version": "1.0.0",
+  "description": "Simple example of CI/CD",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/test/index.test.js ",
+    "start": "node src/index.js",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^8.0.0"
+  }
+}
